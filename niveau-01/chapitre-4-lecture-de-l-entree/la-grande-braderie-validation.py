@@ -1,4 +1,3 @@
-
 ##################################
 # fichier la-grande-braderie-validation.py
 # nom de l'exercice :  La Grande Braderie
@@ -17,3 +16,12 @@
 
 # mettre votre code ici
 
+positionDepart= int(input())
+largeurEmplacement= int(input())
+nbVendeurs= int(input())
+b=1
+print(positionDepart)
+for loop in range(nbVendeurs):
+   a= positionDepart +(largeurEmplacement*b)
+   print(a)
+   b=b+1
