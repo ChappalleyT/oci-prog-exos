@@ -1,4 +1,3 @@
-
 ##################################
 # fichier planning-de-la-journee-validation.py
 # nom de l'exercice :  Planning de la journée
@@ -17,3 +16,12 @@
 
 # mettre votre code ici
 
+position = int(input())
+nbvillage = int(input())
+nombre = 0
+for lopp in range(nbvillage):
+   positionV = int(input())
+   if position-positionV >= -50:
+      if position-positionV <=50:
+         nombre=nombre+1
+print(nombre)
