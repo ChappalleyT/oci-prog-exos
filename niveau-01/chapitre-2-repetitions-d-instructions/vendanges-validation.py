@@ -1,4 +1,3 @@
-
 ##################################
 # fichier vendanges-validation.py
 # nom de l'exercice :  Vendanges
@@ -17,3 +16,11 @@
 
 # mettre votre code ici
 
+from robot import *
+for loop in range(20):
+   ramasser()
+   for loop in range(15):
+      droite()
+   deposer()
+   for loop in range(15):
+      gauche()
