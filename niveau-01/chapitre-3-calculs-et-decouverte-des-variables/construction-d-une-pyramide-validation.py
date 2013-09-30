@@ -1,4 +1,3 @@
-
 ##################################
 # fichier construction-d-une-pyramide-validation.py
 # nom de l'exercice :  Construction d'une pyramide
@@ -16,4 +15,9 @@
 
 
 # mettre votre code ici
-
+a=17
+b=a*a*a
+for loop in range(8):
+   a=a-2
+   b=b+a**3   
+print(b)
