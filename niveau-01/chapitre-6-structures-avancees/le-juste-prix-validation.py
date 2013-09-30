@@ -1,4 +1,3 @@
-
 ##################################
 # fichier le-juste-prix-validation.py
 # nom de l'exercice :  Le juste prix
@@ -17,3 +16,14 @@
 
 # mettre votre code ici
 
+nbM = int(input())
+position = 0
+positionV=0
+prixmin = 1000000
+for loop in range(nbM):
+   position = position + 1
+   prix = int(input())
+   if prix <= prixmin:
+      prixmin = prix
+      positionV = position
+print(positionV)
