@@ -1,4 +1,3 @@
-
 ##################################
 # fichier le-plus-beau-karva-validation.py
 # nom de l'exercice :  Le plus beau Karva
@@ -16,4 +15,13 @@
 
 
 # mettre votre code ici
+
+nbKarva=int(input())
+for loop in range(nbKarva):
+   poid=int(input())
+   age=int(input())
+   corne=int(input())
+   garo=int(input())
+   somme= corne*garo+poid
+   print(somme)
 
