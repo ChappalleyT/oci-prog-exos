@@ -1,4 +1,3 @@
-
 ##################################
 # fichier course-avec-les-enfants-validation.py
 # nom de l'exercice :  Course avec les enfants
@@ -17,3 +16,15 @@
 
 # mettre votre code ici
 
+from robot import *
+a=0
+for loop in range(10):
+   a=a+1
+   for loop in range(a):
+       droite()
+   ramasser()
+   for loop in range (a):
+       gauche()
+   deposer()
+       
+     
