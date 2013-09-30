@@ -1,4 +1,3 @@
-
 ##################################
 # fichier labyrinthe-validation.py
 # nom de l'exercice :  Labyrinthe
@@ -17,3 +16,12 @@
 
 # mettre votre code ici
 
+from robot import *
+haut()
+haut()
+haut()
+droite()
+droite()
+bas()
+bas()
+droite()
