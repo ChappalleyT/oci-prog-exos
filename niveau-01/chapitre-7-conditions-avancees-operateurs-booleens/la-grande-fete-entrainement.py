@@ -1,4 +1,3 @@
-
 ##################################
 # fichier la-grande-fete-entrainement.py
 # nom de l'exercice :  La grande fête
@@ -17,3 +16,16 @@
 
 # mettre votre code ici
 
+DebutP = int(input())
+FinP = int(input())
+invites = int(input())
+suspect = 0
+for loop in range(invites):
+   Debut = int(input())
+   Fin = int(input())
+   passuspect = (Fin < DebutP) or (FinP < Debut)
+   if passuspect:
+      suspect = suspect + 0
+   if ( not (passuspect)):
+      suspect = suspect + 1
+print(suspect)
