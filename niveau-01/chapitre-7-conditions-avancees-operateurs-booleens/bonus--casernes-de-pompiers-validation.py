@@ -26,7 +26,7 @@ for loop in range(nbpair):
    xmaxB = int(input())
    yminB = int(input())
    ymaxB = int(input())
-if (xmaxA>xminB) and (ymaxA>yminB)or (xmaxB>xminA)and (ymaxB>yminA):
-   print("OUI")
-else:
-   print("NON")
+   if (xmaxA<=xminB) or (xminA>=xmaxB)or (yminA>=ymaxB) or (ymaxA<=yminB):
+      print("NON")
+   else:
+      print("OUI")
