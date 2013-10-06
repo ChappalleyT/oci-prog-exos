@@ -1,4 +1,3 @@
-
 ##################################
 # fichier administration--comptes-annuels-entrainement.py
 # nom de l'exercice :  Administration : comptes annuels
@@ -17,3 +16,10 @@
 
 # mettre votre code ici
 
+popTot = int(input())
+Nbmalades=1
+jours=1
+while Nbmalades < popTot:
+   Nbmalades = Nbmalades + (Nbmalades*2)
+   jours=jours+1
+print(jours)
