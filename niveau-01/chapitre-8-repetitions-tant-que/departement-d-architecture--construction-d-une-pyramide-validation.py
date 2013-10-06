@@ -1,4 +1,3 @@
-
 ##################################
 # fichier departement-d-architecture--construction-d-une-pyramide-validation.py
 # nom de l'exercice :  Département d'architecture : construction d'une pyramide
@@ -17,3 +16,12 @@
 
 # mettre votre code ici
 
+NbmaxP = int(input())
+hauteur = 0
+tot = 0
+while NbmaxP-tot>= (hauteur+1)**2:
+   tot = tot +(hauteur+1)**2
+   hauteur = hauteur +1
+print(hauteur)
+print(tot)
+   
