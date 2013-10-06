@@ -16,10 +16,10 @@
 
 # mettre votre code ici
 
-popTot = int(input())
-Nbmalades=1
-jours=1
-while Nbmalades < popTot:
-   Nbmalades = Nbmalades + (Nbmalades*2)
-   jours=jours+1
-print(jours)
+valeur=0
+tot=0
+while valeur!=-1:
+   valeur=int(input())
+   tot=tot+valeur
+print(tot+1)
+
