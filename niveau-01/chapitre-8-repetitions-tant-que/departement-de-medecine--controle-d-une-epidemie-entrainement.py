@@ -1,4 +1,3 @@
-
 ##################################
 # fichier departement-de-medecine--controle-d-une-epidemie-entrainement.py
 # nom de l'exercice :  Département de médecine : contrôle d'une épidémie
@@ -17,3 +16,10 @@
 
 # mettre votre code ici
 
+popTot = int(input())
+Nbmalades=1
+jours=1
+while Nbmalades < popTot:
+   Nbmalades = Nbmalades + (Nbmalades*2)
+   jours=jours+1
+print(jours)
