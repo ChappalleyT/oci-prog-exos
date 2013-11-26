@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 04-conversions-de-distances-obligatoire.py
 # nom de l'exercice : Conversions de distances
@@ -17,3 +16,5 @@
 
 # mettre votre code ici
 
+nombre = float(input())
+print(nombre / 0.707)
