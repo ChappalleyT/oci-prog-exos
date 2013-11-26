@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 13-construction-de-maisons-obligatoire.py
 # nom de l'exercice : Construction de maisons
@@ -17,3 +16,9 @@
 
 # mettre votre code ici
 
+from math import *
+
+qteciment = float(input())
+nbsacs = ceil(qteciment) / 60
+prix = ceil(nbsacs) * 45
+print(prix)
