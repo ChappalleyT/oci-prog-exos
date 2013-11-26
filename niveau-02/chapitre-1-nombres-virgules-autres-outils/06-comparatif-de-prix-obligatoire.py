@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 06-comparatif-de-prix-obligatoire.py
 # nom de l'exercice : Comparatif de prix
@@ -16,4 +15,11 @@
 
 
 # mettre votre code ici
+
+nbL= int(input())
+for loop in range (nbL):
+   poid = float(input())
+   jours = float(input())
+   prix = float(input())
+   print(prix/poid)
 
