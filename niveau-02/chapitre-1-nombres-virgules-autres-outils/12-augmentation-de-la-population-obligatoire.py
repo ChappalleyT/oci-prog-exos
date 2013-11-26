@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 12-augmentation-de-la-population-obligatoire.py
 # nom de l'exercice : Augmentation de la population
@@ -17,3 +16,9 @@
 
 # mettre votre code ici
 
+from math import *
+popTot = int(input())
+crois = float(input())
+pop = popTot + (popTot*(crois/100))
+habitants = floor(pop)
+print(habitants)
