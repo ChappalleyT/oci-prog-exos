@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 11-course-a-trois-jambes-obligatoire.py
 # nom de l'exercice : Course à trois jambes
@@ -17,3 +16,14 @@
 
 # mettre votre code ici
 
+nbParticipants = int(input())
+num = [0] * nbParticipants
+for loop in range(nbParticipants):
+    num[loop] = int(input())
+
+num.sort()
+
+for premier in range(nbParticipants // 2):
+    deuxieme = nbParticipants - 1 - premier
+    print("{} {}".format (num[premier], num[deuxieme]) )
+    
