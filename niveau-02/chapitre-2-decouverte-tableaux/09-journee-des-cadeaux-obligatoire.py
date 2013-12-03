@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 09-journee-des-cadeaux-obligatoire.py
 # nom de l'exercice : Journée des cadeaux
@@ -17,3 +16,17 @@
 
 # mettre votre code ici
 
+nbPersonnes = int(input())
+fortune = [0] * nbPersonnes
+ 
+for loop in range(nbPersonnes):
+   fortune[loop] = int(input())
+ 
+fortune.sort()
+ 
+if nbPersonnes % 2 == 1:
+   milieu = (nbPersonnes - 1) // 2
+   print( fortune[milieu] )
+else:
+   milieu = nbPersonnes // 2
+   print( ( fortune[milieu - 1] + fortune[milieu] ) / 2 )
