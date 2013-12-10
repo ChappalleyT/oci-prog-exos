@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 02d-priorite-alphabetique-obligatoire.py
 # nom de l'exercice : Priorité alphabétique
@@ -17,3 +16,10 @@
 
 # mettre votre code ici
 
+YongXin = input()
+Lam = input()
+
+if YongXin< Lam:
+   print(YongXin)
+elif YongXin> Lam:
+   print(Lam)
