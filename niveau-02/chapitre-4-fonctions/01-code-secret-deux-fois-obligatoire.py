@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 01-code-secret-deux-fois-obligatoire.py
 # nom de l'exercice : Code secret deux fois
@@ -17,3 +16,13 @@
 
 # mettre votre code ici
 
+def lireCode():
+   tentative = 0
+   while tentative != 4242:
+      print("Entrez le code :")
+      tentative = int(input())
+       
+lireCode()
+print("Encore une fois.")
+lireCode()
+print("Bravo.")
