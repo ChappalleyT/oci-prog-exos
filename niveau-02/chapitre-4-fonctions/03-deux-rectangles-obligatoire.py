@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 03-deux-rectangles-obligatoire.py
 # nom de l'exercice : Deux rectangles
@@ -17,3 +16,11 @@
 
 # mettre votre code ici
 
+def rectangle(nbLignes,nbColonnes,caractereAffiche):
+   for loop in range(nbLignes):
+      for loop in range(nbColonnes):
+         print(caractereAffiche,end="")
+      print()
+       
+rectangle(4,10,'X')
+rectangle(6,5,'O')
