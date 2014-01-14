@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 04i-analyse-d-une-langue-obligatoire.py
 # nom de l'exercice : Analyse d’une langue
@@ -17,3 +16,14 @@
 
 # mettre votre code ici
 
+lettre = input()
+nbLignes = int(input())
+ 
+nbFois = 0
+for loop in range(nbLignes):
+   ligne = input()
+   for idLettre in range(len(ligne)):
+      if ligne[idLettre] == lettre:
+         nbFois = nbFois + 1
+ 
+print(nbFois)
