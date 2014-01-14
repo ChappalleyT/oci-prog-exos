@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 04b-impression-d-etiquettes-obligatoire.py
 # nom de l'exercice : Impression d’étiquettes
@@ -17,3 +16,6 @@
 
 # mettre votre code ici
 
+texte = input()
+for idCaractere in range(len(texte)):
+   print(texte[idCaractere])
