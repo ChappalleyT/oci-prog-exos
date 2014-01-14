@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 04f-ngms-sns-vlls-obligatoire.py
 # nom de l'exercice : ngms sns vlls
@@ -17,3 +16,11 @@
 
 # mettre votre code ici
 
+for loop in range(2):
+   ligne = input()
+   for idLettre in range(len(ligne)):
+      car = ligne[idLettre]
+      if (car != " " and car != "A" and car != "E" and car != "I" and
+          car != "O" and car != "U" and car != "Y"):
+         print(car, end = "")
+   print()
